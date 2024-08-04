@@ -16,7 +16,7 @@ Como administrador, quero cadastrar um novo curso com informações completas e 
 * O sistema deve validar os campos do formulário e exibir mensagens de erro específicas para cada campo inválido ou obrigatório não preenchido.
 * Após o cadastro bem-sucedido, o curso deve ser criado e o administrador deve ser redirecionado para a página de detalhes do curso.
 
---
+---
 
 **US02: Definir Título do Curso**
 
@@ -28,7 +28,7 @@ Como administrador, quero inserir um título válido para o curso, que seja info
 * O sistema deve permitir apenas a utilização de letras, números e espaços no título.
 * O sistema deve exibir mensagens de erro caso o título seja muito curto, muito longo ou contenha caracteres inválidos.
 
---
+---
 
 **US03: Descrever o Curso**
 
@@ -39,7 +39,7 @@ Como administrador, quero inserir uma descrição completa e dentro dos limites 
 * O sistema deve aceitar descrições com no mínimo 10 e no máximo 500 caracteres.
 * O sistema deve exibir mensagens de erro caso a descrição seja muito curta ou muito longa.
 
---
+---
 
 **US04: Inserir Imagem de Capa**
 
@@ -51,7 +51,7 @@ Como administrador, quero inserir uma URL válida para a imagem de capa do curso
 * O sistema deve exibir uma mensagem de erro caso a URL seja inválida.
 * O sistema deve exibir uma imagem padrão caso a imagem da URL inserida não seja encontrada.
 
---
+---
 
 **US05: Definir a Data do Curso**
 
@@ -63,7 +63,7 @@ Como administrador, quero definir datas de início e término válidas para o cu
 * O sistema deve garantir que a data de término seja posterior à data de início.
 * O sistema deve exibir mensagens de erro caso as datas inseridas sejam inválidas.
 
---
+---
 
 **US06: Escolher o Tipo do Curso**
 
